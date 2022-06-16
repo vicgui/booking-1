@@ -98,6 +98,9 @@ a{
     height: auto;
 }
 
+.top-navigation .nav > li > a{
+    padding:0px !important;
+}
 
 /* TEST  */
 
