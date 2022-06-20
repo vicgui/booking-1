@@ -102,6 +102,7 @@ a{
     padding:0px !important;
 }
 
+
 /* TEST  */
 
 
@@ -3338,8 +3339,10 @@ a{
     transition: 0.2s; }
   
   #header a:hover {
-    color: #008bc7;
-    text-decoration: none !important; }
+    color: #008bc7 !important;
+    text-decoration: none !important; 
+    background: none !important;
+}
   
   #header {
     position: fixed;
