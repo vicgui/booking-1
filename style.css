@@ -3358,7 +3358,7 @@ a{
   
   #header {
     position: fixed;
-    z-index: 9;
+    z-index: 9999;
     width: 100%;
     display: flex !important;
     flex-direction: row;
@@ -3389,7 +3389,7 @@ a{
   .navbar {
     padding: 1.6rem 0rem 1.6rem 0;
     text-transform: uppercase;
-    z-index: 2; }
+    z-index: 1000; }
   
   .navbar-nav {
     -webkit-box-orient: row;
