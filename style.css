@@ -3702,7 +3702,7 @@ a{
   
     .logo-mobile {
       display: block;
-      width: 172px; }
+      width: 172px !important; }
   
     .mobile-nav {
       display: block; }
