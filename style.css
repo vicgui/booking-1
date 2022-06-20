@@ -131,7 +131,7 @@ a{
     font-family: "museo-sans",sans-serif; }
   
   body {
-    font-size: 9px; }
+    font-size: 9px !Important;}
   
   h1 {
     font-size: 60px;
@@ -3336,7 +3336,9 @@ a{
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
-    transition: 0.2s; }
+    transition: 0.2s;
+    FONT-WEIGHT : 600 !important; 
+}
   
   #header a:hover {
     color: #008bc7 !important;
@@ -3515,7 +3517,7 @@ a{
     position: absolute;
     height: 3px;
     left: 0;
-    bottom: -7px;
+    bottom: -22px;
     background-color: #fff;
     list-style-type: none;
     border: none;
