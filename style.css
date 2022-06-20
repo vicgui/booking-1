@@ -3636,7 +3636,7 @@ a{
     margin-left: 0em;
 }
  #header.header-shrink.hide .btn-globe .btn-globe__text::before {
-    content : "Test"
+    content : "JOIN"
 }
   #header.header-shrink.hide .logo-wrapper {
     width: 40px;
