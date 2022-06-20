@@ -106,9 +106,9 @@ a{
     font-size: 9px !important; 
 }
 
-/* .top-navigation .navbar-right {
-    margin-right: 0px Im !important;
-} */
+.top-navigation .navbar-right {
+    margin-right: 0px !important;
+}
 
 /* TEST  */
 
@@ -3549,7 +3549,9 @@ a{
       margin-right: 1em;
       font-size: 15px;
       margin-left: 1em;
-      opacity: 1; }
+      opacity: 1; 
+      line-height: 46.988px
+    }
     #header .btn-globe a {
       display: block; }
     #header .btn-globe .globe-wrapper {
@@ -3562,7 +3564,7 @@ a{
       vertical-align: middle;
       white-space: nowrap;
       overflow: hidden;
-      width: 90px;
+      width: auto !important;
       -webkit-transition: width 0.3s ease;
       -moz-transition: width 0.3s ease;
       -ms-transition: width 0.3s ease;
