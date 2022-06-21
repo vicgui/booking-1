@@ -5450,27 +5450,27 @@ hr {
   content: "JOIN TALENT NETWORK"
 }
 
-#header.header-shrink .btn-globe .btn-globe__text::before {
+/* #header.header-shrink .btn-globe .btn-globe__text::before {
   content: "JOIN"
-}
+} */
 
 #header.header-shrink.hide .btn-globe .btn-globe__text::after {
   visibility: visible;
-  position: absolute;
+  /* position: absolute;
   top:0;
-  left:0;
+  left:0; */
   content: "JOIN"
 }
 
 #header.header-shrink.hide .btn-globe .btn-globe__text{
   visibility: hidden;
-  position: relative;
+  /* position: relative; */
 }
 
-#header.header-shrink .btn-globe .btn-globe__text{
+/* #header.header-shrink .btn-globe .btn-globe__text{
   visibility: hidden;
   position: relative;
-}
+} */
 
 
 #header.header-shrink.hide .logo-wrapper {
