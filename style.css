@@ -3355,7 +3355,7 @@ a{
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
-    FONT-WEIGHT : 600 !important; 
+    font-weight : 600 !important; 
 }
   
   #header a:hover {
@@ -3471,7 +3471,8 @@ a{
     transition: 0.3s; }
   
   #header.hide .btn-menu a.btn-menu__link {
-    cursor: pointer; }
+    cursor: pointer;
+    color: #000; }
   
   #header.open .btn-menu a.btn-menu__link {
     display: none; }
@@ -3591,7 +3592,7 @@ a{
     #header .btn-globe:hover .globe-icon--black {
       display: none; }
     #header .btn-globe:hover span {
-      color: #008bc7; }
+      color: #008bc7 !important; }
   
   #header.header--white a {
     color: #fff; }
@@ -3659,7 +3660,7 @@ a{
     content : "JOIN"
 }
   #header.header-shrink.hide .logo-wrapper {
-    width: 40px;
+    width: 55px;
     overflow: hidden; }
   #header.header-shrink.hide .btn-menu {
     opacity: 0; }
