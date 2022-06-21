@@ -5442,7 +5442,7 @@ hr {
   margin-left: 0em;
 }
 
-#header.btn-globe .btn-globe__text::before {
+#header.open.btn-globe .btn-globe__text::before {
   content: "JOIN TALENT NETWORK"
 }
 
@@ -5454,9 +5454,24 @@ hr {
   content: "JOIN"
 }
 
-#header.header-shrink.hide .btn-globe .btn-globe__text::before {
+#header.header-shrink.hide .btn-globe .btn-globe__text::after {
+  visibility: visible;
+  position: absolute;
+  top:0;
+  left:0;
   content: "JOIN"
 }
+
+#header.header-shrink.hide .btn-globe .btn-globe__text{
+  visibility: hidden;
+  position: relative;
+}
+
+#header.header-shrink .btn-globe .btn-globe__text{
+  visibility: hidden;
+  position: relative;
+}
+
 
 #header.header-shrink.hide .logo-wrapper {
   width: 55px;
