@@ -3657,7 +3657,7 @@ a{
     font-size: 9px;
     margin-left: 0em;
 }
- #header.header-shrink.hide .btn-globe .btn-globe__text::before {
+ #header.header-shrink.hide .btn-globe .btn-globe__text::after {
     content : "JOIN"
 }
   #header.header-shrink.hide .logo-wrapper {
