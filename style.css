@@ -3648,7 +3648,8 @@ a{
     background-color: #fff; }
   
   #header.header-shrink.hide .btn-globe .text-wrapper {
-    width: 27px !important;
+    width: 55px !important;
+    text-align: center;
   }
 
    #header.header-shrink.hide .btn-globe .btn-globe__text {
