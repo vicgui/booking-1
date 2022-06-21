@@ -113,10 +113,18 @@ a{
 .navbar-nav > li > a {
     line-height: 0px !important;
 }
+
+#header .btn-globe a:hover{
+  color: #008bc7 !important;
+  text-decoration: none !important;
+  background: none !important;
+}
+
+#header.header--black .btn-globe__text{
+  color:#ffff;
+}
+
 /* TEST  */
-
-
-
 
 .booking-color {
     background-color: #003680; }
