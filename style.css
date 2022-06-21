@@ -3660,7 +3660,7 @@ a{
  #header.hide .btn-globe .btn-globe__text::before {
     content : "JOIN TALENT NETWORK"
 } 
-#header.header-shrink.hide .btn-globe .btn-globe__text::after {
+#header.header-shrink.hide .btn-globe .btn-globe__text::before {
   content : "JOIN"
 }
   #header.header-shrink.hide .logo-wrapper {
