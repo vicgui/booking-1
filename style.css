@@ -3592,9 +3592,19 @@ a{
     width: 252px;
 }
   #header.header--white .logo-main--black {
+    display: none;
+    width: 252px;
+  }
+
+  #header.header--black .logo-main--white {
+    display: none;
+    width: 252px;
+}
+  #header.header--black .logo-main--black {
     display: block;
     width: 252px;
   }
+
   #header.header--white .navbar-nav .dividier {
     border-right: .5px solid #fff; }
   #header.header--white .hamburger-inner, #header.header--white .hamburger-inner::before, #header.header--white .hamburger-inner::after {
