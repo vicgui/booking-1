@@ -3588,11 +3588,13 @@ a{
   #header.header--white a {
     color: #fff; }
   #header.header--white .logo-main--white {
-    display: block;
+    display: none;
     width: 252px;
 }
   #header.header--white .logo-main--black {
-    display: none; }
+    display: block;
+    width: 252px;
+  }
   #header.header--white .navbar-nav .dividier {
     border-right: .5px solid #fff; }
   #header.header--white .hamburger-inner, #header.header--white .hamburger-inner::before, #header.header--white .hamburger-inner::after {
