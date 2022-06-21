@@ -3657,10 +3657,10 @@ a{
     font-size: 9px;
     margin-left: 0em;
 }
- #header.hide .btn-globe .btn-globe__text::before {
+ #header.btn-globe .btn-globe__text::before {
     content : "JOIN TALENT NETWORK"
 } 
-#header.header-shrink.hide .btn-globe .btn-globe__text::before {
+#header.header-shrink .btn-globe .btn-globe__text::before {
   content : "JOIN"
 }
   #header.header-shrink.hide .logo-wrapper {
