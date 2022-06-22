@@ -141,6 +141,10 @@ a {
   display:none
 }
 
+.navbar:before {
+  display: none;
+}
+
 /* TEST  */
 
 .booking-color {
