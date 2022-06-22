@@ -5285,12 +5285,12 @@ hr {
   font-size: 15px;
   margin-left: 1em;
   opacity: 1;
-  line-height: 27.988px
+  line-height: 69.44px;
 }
 
 #header .btn-globe a {
   display: block;
-  padding: 10px !important
+  
 }
 
 #header .btn-globe .globe-wrapper {
@@ -5448,23 +5448,16 @@ hr {
 
 #header.header-shrink.hide .btn-globe .btn-globe__text::after {
   visibility: visible;
-  font-size: 10px;
-  /* position: absolute;
-  top:0;
-  left:0; */
-  content: "JOIN"
+  font-size: 12px;
+  content: "JOIN";
+  line-height: 69.44px;
 }
 
 #header.header-shrink.hide .btn-globe .btn-globe__text{
   visibility: hidden;
   font-size: 0px;
-  /* position: relative; */
+  margin-left: -31px;
 }
-
-/* #header.header-shrink .btn-globe .btn-globe__text{
-  visibility: hidden;
-  position: relative;
-} */
 
 
 #header.header-shrink.hide .logo-wrapper {
