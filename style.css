@@ -74,6 +74,7 @@
   -ms-flex-pack: justify;
   background-color: transparent;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
