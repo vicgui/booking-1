@@ -151,6 +151,8 @@ a {
   display: none;
 }
 
+
+
 /* TEST  */
 
 .booking-color {
@@ -449,6 +451,11 @@ li.opentable .partially-open .wrapper-partially {
 
   .brands-mobile__open.active {
     bottom: 0;
+  }
+
+  #header.open .header-bg{
+    height: 100%;
+    opacity: 1;
   }
 
   .brands-mobile__close {
@@ -5523,7 +5530,7 @@ hr {
 .mobile-navbar,
 .mobile-nav,
 .logo-mobile {
-  display: none;
+  display: block;
 }
 
 /*#header.header-shrink.hidden{width:100px;height:85px;}*/
