@@ -75,7 +75,12 @@
   background-color: transparent;
 }
 
-.navbar .header-shrink{
+.hidden.header-shrink .navbar {
+  padding-bottom: 0;
+  background-color: white;
+}
+
+.navbar .hide.hidden .header-shrink{
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: justify;
