@@ -5442,20 +5442,13 @@ hr {
   margin-left: 0em;
 }
 
-#header.open.btn-globe .btn-globe__text::before {
-  content: "JOIN TALENT NETWORK"
-}
-
-#header.btn-globe.hide .btn-globe__text::before {
-  content: "JOIN TALENT NETWORK"
-}
-
 /* #header.header-shrink .btn-globe .btn-globe__text::before {
   content: "JOIN"
 } */
 
 #header.header-shrink.hide .btn-globe .btn-globe__text::after {
   visibility: visible;
+  font-size: 10px;
   /* position: absolute;
   top:0;
   left:0; */
@@ -5464,6 +5457,7 @@ hr {
 
 #header.header-shrink.hide .btn-globe .btn-globe__text{
   visibility: hidden;
+  font-size: 0px;
   /* position: relative; */
 }
 
