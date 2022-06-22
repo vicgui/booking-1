@@ -5531,7 +5531,7 @@ hr {
 .mobile-navbar,
 .mobile-nav,
 .logo-mobile {
-  display: block;
+  display: none;
 }
 
 /*#header.header-shrink.hidden{width:100px;height:85px;}*/
