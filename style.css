@@ -104,7 +104,7 @@ a {
 }
 
 .navbar a {
-  font-size: 9px !important;
+  font-size: 11px !important;
 }
 
 .top-navigation .navbar-right {
@@ -5028,7 +5028,7 @@ hr {
   border: none;
 }
 
-#header a {
+#header a  {
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -ms-transition: 0.2s;
