@@ -5605,6 +5605,8 @@ hr {
   .mobile-nav .mobile-globe a {
     display: block;
     width: 35px;
+    line-height: 24px;
+    text-align: center;
     overflow: hidden;
     background-color: #000;
     -webkit-transition: 0.2s;
@@ -5616,6 +5618,7 @@ hr {
 
   .mobile-nav .mobile-globe a::after {
    content: "JOIN";
+   font-size: 11px;
   }
 
   .mobile-nav .mobile-globe img {
