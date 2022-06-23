@@ -5624,8 +5624,8 @@ hr {
   }
 
   #header.open .header-bg {
-    height: 100%;
-    opacity: 1;
+    height: 100% !important;
+    opacity: 1 !important;
   }
 
   #header.open .mobile-globe {
