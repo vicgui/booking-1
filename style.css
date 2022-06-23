@@ -5600,6 +5600,7 @@ hr {
 
   .mobile-nav .mobile-globe {
     display: inline-block;
+    margin: 1em;
   }
 
   .mobile-nav .mobile-globe a {
