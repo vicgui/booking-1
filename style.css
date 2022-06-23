@@ -5605,7 +5605,7 @@ hr {
   }
 
   .mobile-nav .mobile-globe a {
-    display: block;
+    display: inline-block;
     width: 35px;
     line-height: 24px;
     text-align: center;
