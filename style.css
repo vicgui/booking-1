@@ -5599,13 +5599,14 @@ hr {
   }
 
   .mobile-nav .mobile-globe {
-    display: none;
+    display: inline-block;
   }
 
   .mobile-nav .mobile-globe a {
     display: block;
-    width: 30px;
+    width: 35px;
     overflow: hidden;
+    background-color: #000;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
@@ -5613,7 +5614,12 @@ hr {
     transition: 0.2s;
   }
 
+  .mobile-nav .mobile-globe a::after {
+   content: "JOIN";
+  }
+
   .mobile-nav .mobile-globe img {
+    display: none !important;
     width: 30px;
     vertical-align: bottom;
   }
