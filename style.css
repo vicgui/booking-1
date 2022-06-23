@@ -5722,7 +5722,7 @@ hr {
   }
 
   body.header-is-open {
-    overflow: scroll !important;
+    overflow: hidden !important;
   }
 
   body.header-is-open .brands-mobile {
