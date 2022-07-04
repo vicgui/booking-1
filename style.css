@@ -5068,6 +5068,7 @@ hr {
   -o-transition: 0.2s;
   transition: 0.2s;
   font-weight: 600 !important;
+  font-size: 18px !important;
 }
 
 #header a:hover {
