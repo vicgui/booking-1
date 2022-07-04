@@ -5206,12 +5206,12 @@ hr {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  top: -1.9em;
 }
 
 #header.hide .btn-menu a.btn-menu__link {
   cursor: pointer;
   color: #000;
-  top:-2em
 }
 
 #header.open .btn-menu a.btn-menu__link {
@@ -5236,7 +5236,7 @@ hr {
   -o-transition: 0.3s;
   transition: 0.3s;
   display: none;
-  top: -2em;
+  top: -1.9em;
 }
 
 .main-menu>li.menu-item {
