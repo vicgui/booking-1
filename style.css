@@ -5211,6 +5211,7 @@ hr {
 #header.hide .btn-menu a.btn-menu__link {
   cursor: pointer;
   color: #000;
+  top:-16px
 }
 
 #header.open .btn-menu a.btn-menu__link {
@@ -5235,6 +5236,7 @@ hr {
   -o-transition: 0.3s;
   transition: 0.3s;
   display: none;
+  top: -16px;
 }
 
 .main-menu>li.menu-item {
@@ -5426,6 +5428,8 @@ hr {
 #header.header--black .navbar-nav .dividier,
 .page-template-t_press_release #header .navbar-nav .dividier {
   border-right: .5px solid #000;
+  position: relative;
+  top: -16px;
 }
 
 #header.header--black .hamburger-inner,
