@@ -5,7 +5,7 @@ $(document).ready(function() {
         $('.navbar-left').hover(
         function() {
           $('#header').removeClass('hidden');
-          $('.header-bg').animate({height: "150px", opacity: "1"}, 500).clearQueue();
+          $('.header-bg').animate({height: "110px", opacity: "1"}, 500).clearQueue();
           $('#header').removeClass('hide').addClass('open');
           $('.btn-menu a.btn-menu__link').animate({ opacity: "0"}, 70);
           $('.main-menu').animate({ opacity: "1"}, 100);
@@ -110,7 +110,7 @@ $(document).ready(function() {
             $($sub_menu[i - 1]).clearQueue();
             $($sub_menu[i - 1]).delay(($sub_menu.length - i) * 40).fadeTo(300, 0, function() { $(this).css({'display': 'none'}); } );
           }
-          $('.header-bg').animate({height: 100}, 500).clearQueue();
+          $('.header-bg').animate({height: 110}, 500).clearQueue();
         }
       );
     }
